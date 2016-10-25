@@ -1,0 +1,39 @@
+.main {
+  min-height: 1200px;
+}
+
+.panel {
+  margin-bottom: 20px;
+}
+
+.zippy-control,
+.zippy-content {
+  padding: 6px;
+
+}
+
+.zippy-control {
+  border-bottom: 1px solid #777;
+}
+
+.personal-data-panel {
+  width: 800px;
+  margin: 20px auto;
+}
+
+.personal-data-panel img {
+  display: block;
+  max-width: 760px;
+}
+
+.shopping-list-panel {
+  width: 320px;
+}
+
+.shopping-list-panel .shoping-item .input-group {
+  margin: 0 auto 6px;
+}
+
+.shopping-list-panel .shoping-item .title {
+  margin: 0 auto 4px;
+}

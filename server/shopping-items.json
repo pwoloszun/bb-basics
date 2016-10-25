@@ -1,0 +1,32 @@
+[
+  {
+    "id": 100,
+    "title": "Milk",
+    "count": 2,
+    "price": 0.99
+  },
+  {
+    "id": 101,
+    "title": "Butter",
+    "count": 1,
+    "price": 2.49
+  },
+  {
+    "id": 102,
+    "title": "Bread",
+    "count": 1,
+    "price": 1.05
+  },
+  {
+    "id": 104,
+    "title": "Sausage",
+    "count": 2,
+    "price": 4
+  },
+  {
+    "id": 105,
+    "title": "Water",
+    "count": 6,
+    "price": 0.5
+  }
+]
