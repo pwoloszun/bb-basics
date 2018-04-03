@@ -6,14 +6,14 @@ import templateHtml from "./tasks-view.template.html!text";
 export const TasksView = BackBone.View.extend({
   template: Handlebars.compile(templateHtml),
 
-  render: function () {
+  render() {
     const htmlContent = this.template();
     this.$el.html(htmlContent);
 
     // TODO: zippy
 
     // TODO: personal-data
-    // let batman = {
+    // const batman = {
     //   name: "Batman",
     //   age: 33,
     //   url: "https://m0vie.files.wordpress.com/2014/06/batman-courtofowls4.jpg"

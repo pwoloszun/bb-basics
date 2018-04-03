@@ -14,17 +14,17 @@ export const TwoWayBindingExampleView = BackBone.View.extend({
     this.model.on("change:name", this.updateName.bind(this));
   },
 
-  render: function () {
-    let json = this.model.toJSON();
+  render() {
+    const json = this.model.toJSON();
     const htmlContent = this.template(json);
     this.$el.html(htmlContent);
   },
 
-  onNameChange: function (event) {
+  onNameChange(event) {
     this.model.set("name", event.target.value);
   },
 
-  updateName: function (model, newName) {
+  updateName(model, newName) {
     this.$el.find(".js-name").html(newName);
   }
 

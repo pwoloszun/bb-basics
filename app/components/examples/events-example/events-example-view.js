@@ -10,12 +10,12 @@ export const EventsExampleView = BackBone.View.extend({
     "keyup .js-name-field": "onNameChange"
   },
 
-  render: function () {
+  render() {
     const htmlContent = this.template();
     this.$el.html(htmlContent);
   },
 
-  onNameChange: function (event) {
+  onNameChange(event) {
     console.log("name changed", event.target.value);
   }
 
